@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.buczek.watchedmoviesapp.WatchedMoviesAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-10T21:33:06" hostname="MacBook-Pro-Maksymilian.local" time="0.452">
+  <properties/>
+  <testcase name="contextLoads()" classname="org.buczek.watchedmoviesapp.WatchedMoviesAppApplicationTests" time="0.452"/>
+  <system-out><![CDATA[22:33:05.336 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.buczek.watchedmoviesapp.WatchedMoviesAppApplicationTests]: WatchedMoviesAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:33:05.402 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.buczek.watchedmoviesapp.WatchedMoviesAppApplication for test class org.buczek.watchedmoviesapp.WatchedMoviesAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2023-12-10T22:33:05.732+01:00  INFO 25708 --- [    Test worker] o.b.w.WatchedMoviesAppApplicationTests   : Starting WatchedMoviesAppApplicationTests using Java 17.0.8 with PID 25708 (started by maxbuczek in /Users/maxbuczek/IdeaProjects/watched-movies-app/backend)
+2023-12-10T22:33:05.733+01:00  INFO 25708 --- [    Test worker] o.b.w.WatchedMoviesAppApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-10T22:33:06.127+01:00  INFO 25708 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+2023-12-10T22:33:06.209+01:00  INFO 25708 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 0 Neo4j repository interfaces.
+2023-12-10T22:33:06.216+01:00  INFO 25708 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
+2023-12-10T22:33:06.232+01:00  INFO 25708 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 Neo4j repository interfaces.
+2023-12-10T22:33:06.460+01:00  INFO 25708 --- [    Test worker] o.neo4j.driver.internal.DriverFactory    : Direct driver instance 2119918107 created for server address neo4jdb:7687
+2023-12-10T22:33:06.536+01:00  WARN 25708 --- [    Test worker] o.s.d.n.c.mapping.Neo4jPersistentEntity  : The entity org.buczek.watchedmoviesapp.model.Movie is using a Long value for storing internally generated Neo4j ids. The Neo4j internal Long Ids are deprecated, please consider using an external ID generator.
+2023-12-10T22:33:06.548+01:00  WARN 25708 --- [    Test worker] o.s.d.n.c.mapping.Neo4jPersistentEntity  : The entity org.buczek.watchedmoviesapp.model.Person is using a Long value for storing internally generated Neo4j ids. The Neo4j internal Long Ids are deprecated, please consider using an external ID generator.
+2023-12-10T22:33:06.854+01:00  INFO 25708 --- [    Test worker] o.b.w.WatchedMoviesAppApplicationTests   : Started WatchedMoviesAppApplicationTests in 1.356 seconds (process running for 2.36)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

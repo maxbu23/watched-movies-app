@@ -1,0 +1,104 @@
+.dashboard-container {
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Arial', sans-serif;
+    background-color: #A7BEAE;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.dashboard-container div {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f5f5f5;
+}
+
+.form {
+    padding: 0 40px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    border-radius: 100px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333; /* Kolor ikony zamknięcia */
+  }
+  
+.close-button:hover {
+    color: #f00; /* Kolor ikony zamknięcia po najechaniu myszą */
+}
+  
+.delete-button {
+    float: right;
+    border: 1px solid;
+    color: black;
+    background-color: #E7E8D1;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #232F34;
+    margin: 1px;
+}
+
+.delete-button:hover {
+    background-color: red;
+    border-color: #A7BEAE
+}
+
+.delete-button::selection {
+    background-color: red;
+    border-color: #A7BEAE
+}
+
+.button {
+    border: 1px solid;
+    color: black;
+    background-color: #E7E8D1;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #232F34;
+    margin: 1px;
+}
+
+.button:hover {
+    background-color: green;
+    border-color: #A7BEAE
+}
+
+.button::selection {
+    background-color: green;
+    border-color: #A7BEAE
+}
